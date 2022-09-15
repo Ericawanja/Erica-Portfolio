@@ -1,0 +1,322 @@
+.App {
+  width: 60%;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+}
+.intro {
+  margin: 100px 0 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-bottom: 1px solid rgba(237, 231, 231, 0.1);
+}
+.intro .name {
+  padding: 10px 0;
+  word-spacing: 4px;
+}
+.intro .name span {
+  font-weight: 700;
+  font-size: 2em;
+}
+.intro .title {
+  color: aqua;
+  font-size: 2.3em;
+  font-weight: 900;
+  line-height: 2;
+  letter-spacing: 3px;
+}
+.intro .desc {
+  font-size: 1.5em;
+  line-height: 1.5;
+}
+
+button {
+  background: transparent;
+  color: white;
+  padding: 10px 20px;
+  margin: 30px;
+  border-color: aqua;
+  border-radius: 30px;
+  box-shadow: 0px 0px 2px 2px rgba(237, 231, 231, 0.4);
+  cursor: pointer;
+  font-size: 1.2em;
+}
+button:hover {
+  border-color: rgb(237, 231, 231);
+  box-shadow: 1px 2px 2px 2px rgba(237, 231, 231, 0.4);
+}
+.moreIntro {
+  display: flex;
+  gap: 20px;
+  border-bottom: 1px solid rgba(237, 231, 231, 0.1);
+}
+.moreIntro img {
+  width: 300px;
+  height: 320px;
+  border-radius: 60px;
+}
+.moreIntro .moreDesc .title {
+  font-weight: 700;
+  font-size: 1.2em;
+  line-height: 2;
+}
+.moreIntro .moreDesc .techStack div {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: space-around;
+  
+}
+.techStack button {
+  color: rgb(37, 222, 222);
+}
+.techStackIcons{
+  font-size: 20px;
+  color: rgb(90, 93, 94);
+}
+.experience {
+  text-align: center;
+  padding: 40px 0;
+  border-bottom: 1px solid rgba(237, 231, 231, 0.1);
+}
+.experience h2 {
+  text-align: left;
+  text-decoration: underline;
+}
+.experience div {
+  padding: 10px;
+}
+.experience h3 {
+  color: aqua;
+}
+.fellowships {
+  margin: 20px 0;
+  border-bottom: 1px solid rgba(237, 231, 231, 0.1);
+}
+.fellowships h2 {
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+.fcContainer {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+.fcContainer .containerItem {
+  background-color: rgba(2, 30, 57, 0.3);
+  padding: 8px;
+  border-radius: 10px;
+}
+.fcContainer .containerItem:hover {
+  background-color: rgba(28, 44, 57, 0.3);
+}
+.fcContainer .name {
+  color: aquamarine;
+  font-size: 1.3em;
+  line-height: 2;
+}
+.fcContainer div p {
+  font-size: 1.2em;
+  line-height: 2;
+}
+.containerItem .desc {
+  font-size: 14px;
+}
+.containerItem .socials {
+  text-align: center;
+  padding: 10px;
+}
+.socials span {
+  padding: 10px;
+  color: aqua;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+.education {
+  margin: 20px 0;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(237, 231, 231, 0.1);
+}
+.education h2 {
+  text-decoration: underline;
+  padding-bottom: 20px;
+}
+.eduContainer {
+  display: flex;
+  margin: ;
+  gap: 50px;
+}
+.eduContainer div {
+  background-color: rgba(2, 30, 57, 0.3);
+  padding: 20px;
+  box-shadow: 1px 0px 3px 2px rgba(2, 30, 57, 0.8);
+  border: 1px solid rgba(2, 30, 57, 0.8);
+  border-radius: 10px;
+}
+.testimonial {
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(237, 231, 231, 0.1);
+}
+.testimonial h2 {
+  text-decoration: underline;
+}
+
+.testimonyWrapper {
+  display: flex;
+  width: 90%;
+  place-items: center;
+  gap: 20px;
+  margin: 30px;
+  padding: 20px;
+  background-color: rgba(2, 30, 57, 0.3);
+}
+.testimonial .testimonyWrapper img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.personalProjects {
+  padding: 20px;
+  background-color: rgba(2, 30, 57, 0.3);
+  border-radius: 10px;
+}
+.personalProjects h2 {
+  text-decoration: underline;
+}
+.projectContainer {
+  padding: 10px;
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  gap: 20px;
+}
+
+.projectContainer img {
+  width: 320px;
+  height: 220px;
+}
+.projects h3 {
+  line-height: 3;
+  color: aquamarine;
+}
+
+.projectContainer .cont1{
+    height: 100%;
+    width: 100%;    
+    margin: auto;
+
+}
+.projectContainer .cont1 .desc {
+  line-height: 1.2;
+  font-size: 1.2em;
+  
+}
+.projectContainer .cont1 .tools {
+  padding: 20px 5px;
+}
+.btns button {
+  margin: 10px;
+}
+@media screen and (max-width: 1200px) {
+  .App {
+    width: 88%;
+  }
+  .btns button {
+    margin: 10px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .projectContainer img {
+    width: 200px;
+    height: 200px;
+  }
+  .projectContainer{
+    width: 95%;
+  }
+  .fcContainer{
+    grid-template-columns: 32% 32% 32%;
+
+  }
+}
+@media screen and (max-width: 750px) {
+  .moreIntro {
+    flex-direction: column;    
+  }
+  .img{
+    display: flex;
+    justify-content: center;
+  }
+  .moreIntro img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .title{
+    color: aquamarine;
+  }
+  .eduContainer{
+    flex-direction: column;
+}
+}
+@media screen and (max-width: 700px) {
+    
+    
+    .App{
+        width: 95%;
+    }
+    .intro .name{
+        word-spacing: 2px;
+    }
+    .intro .name span{
+        font-size: 1.2em;
+        }
+        .intro .title{
+            font-size: 1.5em;
+            letter-spacing: 1.5px;
+            line-height: 1.2;
+            margin-bottom: 2px;
+        }
+        .intro .desc{
+            font-size: 1.2em;
+            line-height: 1.5;            
+        }
+    .fcContainer{
+        grid-template-columns: 95%;
+        margin: 10px 0;
+    }
+    .projectContainer{
+        flex-direction: column;
+    }
+    .cont2{
+        height: 100%;
+        width: 100%;
+        margin: auto;
+    }
+    .projectContainer img{
+        width: 300px;
+        height: 220px;
+        margin: auto;
+    }
+    
+}
+@media screen and (max-width:450px) {
+.projectContainer img{
+    width: 200px;
+    height: 150px;
+}   
+.btns button {
+    margin: 10px 7px;
+    padding: 8px;
+  } 
+  .projects h3{
+    line-height: 1;
+    margin: 4px;
+    text-decoration: underline;
+  }
+  .projectContainer .cont1 .desc{
+    font-size: 16px;
+    text-align: center;
+    
+  }
+}
