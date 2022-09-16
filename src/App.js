@@ -189,7 +189,7 @@ function App() {
                     <div className="socials">
                       <span>
                         <a
-                          href="https://github.com/Ericawanja"
+                          href={twitter}
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -198,7 +198,7 @@ function App() {
                       </span>
                       <span>
                         <a
-                          href="https://github.com/Ericawanja"
+                          href={linkedin}
                           target="_blank"
                           rel="noopener noreferrer"
                         >
